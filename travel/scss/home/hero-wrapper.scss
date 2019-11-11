@@ -1,0 +1,48 @@
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: ("../images/home-hero.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .callout {
+      margin-top: 90px;
+      width: 416px;
+      min-height: 200px;
+      text-align: center;
+
+      h1 {
+        color: $site-white;
+      }
+
+      .l-imp {
+        color: $site-blue;
+        margin-bottom: 35px;
+        font-style: italic;
+      }
+
+      .desc {
+        color: $site-white;
+        margin-bottom: 50px;
+        font-style: italic;
+      }
+
+      .site-button {
+        padding: 10px 25px;
+        background-color: $site-blue;
+        text-decoration: none;
+        color: $site-white;
+      }
+    }
+  }
+}

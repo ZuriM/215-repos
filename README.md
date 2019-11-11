@@ -2,4 +2,4 @@
 
 ## This is the home folder for all mt projects
 
-This is the URL for homework 2: https://zurim.github.io/215-repos/
+This is the URL for homework 2: https://zurim.github.io/215-repos/eventsy-hero/

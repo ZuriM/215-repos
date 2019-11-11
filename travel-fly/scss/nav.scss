@@ -1,0 +1,36 @@
+nav {
+  min-width: 50%;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+  .logo {
+    height: 42px;
+    min-width: 92px;
+    margin-top: 25px;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-transform: lowercase;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+
+    span {
+      color: #79addc;
+    }
+  }
+
+  a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

@@ -18,10 +18,39 @@ h6,
 p {
   margin-bottom: 16px; }
 
-.hero-wrapper {
-  height: 100%;
-  width: 500px;
-  background-color: #ffd140; }
+.inputs {
+  height: 400px;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #ee4367;
+  padding: 50px; }
+  .inputs input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: #f56b88;
+    border: none;
+    color: rgba(255, 255, 255, 0.5); }
+    .inputs input:focus {
+      outline: none; }
+    .inputs input:placeholder {
+      color: rgba(255, 255, 255, 0.5); }
+  .inputs .submit-button {
+    background-color: #fff;
+    color: #ee4367;
+    text-transform: uppercase;
+    width: 167px;
+    margin-left: -5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
 
 .hero-wrapper {
   width: 100%;
@@ -29,9 +58,19 @@ p {
   background-color: #ffd140; }
 
 .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 1280px;
-  height: 100%;
   margin: 0 auto;
+  height: 100%;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 209, 64, 0.8)), to(rgba(255, 209, 64, 0.8))), url("../images/home-hero.jpg");
   background-image: -webkit-linear-gradient(left, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url("../images/home-hero.jpg");
   background-image: -o-linear-gradient(left, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url("../images/home-hero.jpg");
@@ -93,3 +132,91 @@ nav {
     margin: 0 20px;
     color: #ee4367;
     font-size: 28px; }
+
+.quote {
+  height: 300px;
+  width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .quote .quote-content {
+    width: 789px;
+    margin: auto; }
+  .quote .quote-text {
+    color: #ffd140;
+    margin-bottom: 25px; }
+  .quote .quote-ceo {
+    color: #ee4367;
+    margin-bottom: 0px; }
+  .quote .quote-ceo-title {
+    color: #a8a8a8;
+    font-size: 10px; }
+
+.upcoming-events {
+  height: 320px;
+  background-color: #540d6e; }
+  .upcoming-events .event-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 40px; }
+  .upcoming-events .title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px; }
+  .upcoming-events .underline {
+    height: 2px;
+    background-color: #fff;
+    width: 392px;
+    margin-bottom: 34px; }
+  .upcoming-events .date-container {
+    height: 124px;
+    margin-top: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .upcoming-events .date-container .date {
+      height: 100%;
+      width: 220px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .upcoming-events .date-container .date .date-day {
+        width: 60px;
+        height: 60px;
+        background-color: #ee4367;
+        color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .upcoming-events .date-container .date .date-day .day {
+          font-size: 22px;
+          margin-bottom: 0; }
+        .upcoming-events .date-container .date .date-day .month {
+          text-transform: uppercase;
+          margin-bottom: 0; }
+      .upcoming-events .date-container .date .date-text-container {
+        width: 140px;
+        height: 100%; }
+        .upcoming-events .date-container .date .date-text-container .subject {
+          font-size: 15px;
+          color: #fff; }
+        .upcoming-events .date-container .date .date-text-container .desc {
+          font-size: 13px;
+          color: #ee4367; }

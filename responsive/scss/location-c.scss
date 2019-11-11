@@ -1,0 +1,63 @@
+.location-c {
+  max-width: 1280px;
+  margin: 0 auto;
+  /*background-image: url(../images/hero.jpg);*/
+  min-height: 304px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.location {
+  height: 304px;
+  width: 236px;
+  background-color: aquamarine;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 50px;
+
+  .country {
+    text-transform: uppercase;
+  }
+
+  .cost {
+    margin-top: -16px;
+    margin-bottom: 70px;
+  }
+
+  .button {
+    text-transform: uppercase;
+  }
+}
+
+.israel {
+  background-image: url(../images/tour/israel01.jpg);
+}
+
+.usa {
+  background-image: url(../images/tour/tour-02.jpg);
+}
+
+.austrailia {
+  background-image: url(../images/tour/tour-03.jpg);
+}
+
+@media (max-width: 1000px) {
+  .location-c {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+
+    .location {
+      margin: 20px 0;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.forms {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+    margin-top: 10px;
+  }
+}
+
+form {
+  height: 100%;
+  min-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  div {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+
+    .cal {
+      display: inline-flex;
+      background: url(../images/calendar.svg);
+      background-repeat: no-repeat;
+      background-position-x: 300px;
+      background-position-y: 0px;
+    }
+
+    span {
+      font-family: "Lato", sans-serif;
+      font-weight: bold;
+      margin-right: -200px;
+    }
+  }
+
+  input::placeholder {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+  }
+
+  div input {
+    height: 50px;
+    width: 350px;
+    border: 2px solid #79addc;
+  }
+  select option {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+  }
+
+  textarea {
+    height: 150px;
+    width: 90%;
+    border: 2px solid #79addc;
+  }
+
+  .button {
+    background-color: #79addc;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 90%;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+}
