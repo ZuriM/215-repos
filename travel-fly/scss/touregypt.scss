@@ -1,0 +1,46 @@
+.tourss {
+  min-height: 100%;
+  width: 100%;
+  .egyptbackground {
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.4),
+        rgba(black, 0.4)
+      ),
+      url(../images/tour/tour-06.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 15%;
+      margin-bottom: 24%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //background-color: violet;
+      font-family: "Roboto", sans-serif;
+    }
+
+    p {
+      font-size: 25px;
+      color: white;
+      display: flex;
+      //background-color: yellow;
+      margin-top: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

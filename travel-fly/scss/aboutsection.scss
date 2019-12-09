@@ -1,0 +1,163 @@
+.aboutsection {
+  width: 100%;
+  height: 500px;
+  //background-color: purple;
+
+  .navabout {
+    width: 980px;
+    height: 92px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    .logo {
+      height: 42px;
+      min-width: 92px;
+      margin-top: 35px;
+    }
+    .aboutlinks {
+      display: flex;
+      align-items: center;
+      //justify-items: c;
+      text-transform: lowercase;
+      font-size: 15px;
+      font-family: "Lato", sans-serif;
+      // background-color: blue;
+      margin-top: 40px;
+    }
+    a {
+      color: black;
+    }
+  }
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+
+  h1 {
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    width: 10%;
+    margin-right: 55%;
+  }
+
+  p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    width: 800px;
+    margin-right: 13%;
+    margin-top: 10px;
+  }
+}
+
+.abouttwo {
+  //background-color: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-right: 45%;
+    width: 20%;
+    margin-top: 5%;
+  }
+
+  h1:after {
+    border-bottom: 2px solid black;
+    content: "";
+    display: block;
+    width: 250px;
+  }
+
+  .clientone {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 70%;
+    margin-right: 7%;
+    margin-top: 15px;
+    img {
+      height: 100%;
+      width: 260px;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bolder;
+      height: 100%;
+      width: 385px;
+    }
+
+    b {
+      color: #79addc;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: "Lato", sans-serif;
+      margin-left: 300px;
+    }
+  }
+
+  .clienttwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 70%;
+    margin-right: 7.3%;
+    margin-top: 35px;
+    margin-bottom: 15%;
+    img {
+      height: 100%;
+      width: 260px;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bolder;
+      height: 100%;
+      width: 385px;
+    }
+    b {
+      color: #79addc;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: "Lato", sans-serif;
+      margin-left: 300px;
+    }
+  }
+  @media (max-width: 850px) {
+    .navabout {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+    }
+    .aboutlinks {
+      min-width: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

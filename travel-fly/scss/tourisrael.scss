@@ -1,0 +1,114 @@
+.tourss {
+  min-height: 100%;
+  width: 100%;
+  .israelbackground {
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.4),
+        rgba(black, 0.4)
+      ),
+      url(../images/tour/israel01.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 18%;
+      margin-bottom: 24%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //background-color: violet;
+      font-family: "Roboto", sans-serif;
+    }
+
+    p {
+      font-size: 25px;
+      color: white;
+      display: flex;
+      //background-color: yellow;
+      margin-top: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .pictureBox {
+    height: 100%;
+    width: 100%;
+    //margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .one {
+    height: 370.5px;
+    width: 281px;
+    margin-right: 5%;
+  }
+
+  .two {
+    height: 370.5px;
+    width: 281px;
+    align-items: center;
+    margin-left: -5%;
+  }
+
+  .three {
+    height: 370.5px;
+    width: 281px;
+  }
+}
+.days {
+  width: 78%;
+  height: 100%;
+  margin-left: 11%;
+  .day {
+    margin-top: 20px;
+    h1 {
+      font-size: 60px;
+      width: 18%;
+      font-family: "Roboto", sans-serif;
+      font-weight: lighter;
+    }
+    h1:after {
+      border-bottom: 2px solid black;
+      content: "";
+      display: block;
+      width: 150px;
+    }
+    p {
+      font-size: 16px;
+      font-family: "Lato", sans-serif;
+      font-weight: bolder;
+    }
+  }
+  .booknow {
+    background-color: #79addc;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 133px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 44%;
+    margin-bottom: 8%;
+  }
+}

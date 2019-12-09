@@ -23,7 +23,7 @@ p {
   width: 500px; }
 
 nav {
-  min-width: 50%;
+  width: 980px;
   height: 92px;
   margin: 0 auto;
   border-bottom: 2px solid #ffffff;
@@ -58,6 +58,32 @@ nav {
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px; }
+
+@media (max-width: 980px) {
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px 0; }
+  .links {
+    min-width: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
 .hero-wrapper {
   width: 100%;
@@ -136,7 +162,7 @@ nav {
   align-items: center;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  margin-top: -50px; }
+  margin-top: -85px; }
 
 .israel {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/israel01.jpg");
@@ -165,6 +191,7 @@ nav {
 .trips {
   height: 300px;
   width: 235px;
+  margin: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,8 +231,6 @@ nav {
       color: white;
       font-family: "Lato", sans-serif;
       font-weight: bold;
-      margin-top: 50px;
-      width: 133px;
       height: 40px; }
 
 @media all and (max-width: 1000px) {
@@ -247,7 +272,7 @@ nav {
 
 form {
   height: 100%;
-  min-width: 60%;
+  max-width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -334,7 +359,9 @@ form {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 20px 0; } }
+    padding: 20px 0; }
+    .form span {
+      display: none; } }
 
 footer {
   height: 100px;
@@ -356,3 +383,1154 @@ i {
 
 footer p {
   color: white; }
+
+.aboutsection {
+  width: 100%;
+  height: 500px; }
+  .aboutsection .navabout {
+    width: 980px;
+    height: 92px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .aboutsection .navabout .logo {
+      height: 42px;
+      min-width: 92px;
+      margin-top: 35px; }
+    .aboutsection .navabout .aboutlinks {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-transform: lowercase;
+      font-size: 15px;
+      font-family: "Lato", sans-serif;
+      margin-top: 40px; }
+    .aboutsection .navabout a {
+      color: black; }
+
+.about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 50px; }
+  .about h1 {
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    width: 10%;
+    margin-right: 55%; }
+  .about p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    width: 800px;
+    margin-right: 13%;
+    margin-top: 10px; }
+
+.abouttwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .abouttwo h1 {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-right: 45%;
+    width: 20%;
+    margin-top: 5%; }
+  .abouttwo h1:after {
+    border-bottom: 2px solid black;
+    content: "";
+    display: block;
+    width: 250px; }
+  .abouttwo .clientone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    height: 150px;
+    width: 70%;
+    margin-right: 7%;
+    margin-top: 15px; }
+    .abouttwo .clientone img {
+      height: 100%;
+      width: 260px; }
+    .abouttwo .clientone p {
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bolder;
+      height: 100%;
+      width: 385px; }
+    .abouttwo .clientone b {
+      color: #79addc;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: "Lato", sans-serif;
+      margin-left: 300px; }
+  .abouttwo .clienttwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    height: 150px;
+    width: 70%;
+    margin-right: 7.3%;
+    margin-top: 35px;
+    margin-bottom: 15%; }
+    .abouttwo .clienttwo img {
+      height: 100%;
+      width: 260px; }
+    .abouttwo .clienttwo p {
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bolder;
+      height: 100%;
+      width: 385px; }
+    .abouttwo .clienttwo b {
+      color: #79addc;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: "Lato", sans-serif;
+      margin-left: 300px; }
+  @media (max-width: 850px) {
+    .abouttwo .navabout {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 20px 0; }
+    .abouttwo .aboutlinks {
+      min-width: auto;
+      margin-right: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
+
+.toursection {
+  width: 100%;
+  min-height: 100%; }
+  .toursection .navtour {
+    width: 980px;
+    height: 92px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .toursection .navtour .logo {
+      height: 42px;
+      min-width: 92px;
+      margin-top: 35px; }
+    .toursection .navtour .tourlinks {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-transform: lowercase;
+      font-size: 15px;
+      font-family: "Lato", sans-serif;
+      margin-top: 40px; }
+    .toursection .navtour a {
+      color: black; }
+
+.tour {
+  height: 100%; }
+  .tour .tourbackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tours-header.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tour .tourbackground h1 {
+      font-size: 60px;
+      color: #ffffff;
+      font-family: "Roboto", sans-serif;
+      font-weight: lighter;
+      text-transform: uppercase; }
+
+.tours {
+  height: 300px;
+  width: 235px;
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .tours .tourstext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .tours .tourstext h1,
+    .tours .tourstext p {
+      font-family: "Roboto", sans-serif;
+      color: white; }
+    .tours .tourstext h1 {
+      font-size: 40px; }
+    .tours .tourstext p {
+      font-size: 30px; }
+    .tours .tourstext .button {
+      background-color: #79addc;
+      border-style: none;
+      border-radius: 15px;
+      padding: 10px;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-weight: bold;
+      margin-top: 50px;
+      width: 133px;
+      height: 40px;
+      text-align: center;
+      text-decoration: none; }
+
+.tourBox {
+  margin: 0 auto;
+  min-height: 100%;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.israel {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/israel01.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/israel01.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/israel01.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/israel01.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.usa {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-02.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-02.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.austrailia {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-03.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-03.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.zealand {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-04.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-04.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-04.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-04.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.france {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-05.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-05.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-05.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-05.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.egypt {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-06.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-06.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-06.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-06.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.japan {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-07.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-07.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-07.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-07.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.canada {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-08.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-08.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-08.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-08.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.uae {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-09.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-09.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-09.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-09.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .israelbackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/israel01.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/israel01.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/israel01.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/israel01.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .israelbackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 18%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .israelbackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+  .tourss .pictureBox {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 20px; }
+  .tourss .one {
+    height: 370.5px;
+    width: 281px;
+    margin-right: 5%; }
+  .tourss .two {
+    height: 370.5px;
+    width: 281px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: -5%; }
+  .tourss .three {
+    height: 370.5px;
+    width: 281px; }
+
+.days {
+  width: 78%;
+  height: 100%;
+  margin-left: 11%; }
+  .days .day {
+    margin-top: 20px; }
+    .days .day h1 {
+      font-size: 60px;
+      width: 18%;
+      font-family: "Roboto", sans-serif;
+      font-weight: lighter; }
+    .days .day h1:after {
+      border-bottom: 2px solid black;
+      content: "";
+      display: block;
+      width: 150px; }
+    .days .day p {
+      font-size: 16px;
+      font-family: "Lato", sans-serif;
+      font-weight: bolder; }
+  .days .booknow {
+    background-color: #79addc;
+    border-style: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 133px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 44%;
+    margin-bottom: 8%; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .usabackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .usabackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 18%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .usabackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .ausbackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .ausbackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 10%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .ausbackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .newzbackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-04.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .newzbackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 1%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .newzbackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .francebackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-05.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .francebackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 15%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .francebackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .egyptbackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-06.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .egyptbackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 15%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .egyptbackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .japanbackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-07.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .japanbackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 15%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .japanbackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .canadabackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-08.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .canadabackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 10%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .canadabackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.tourss {
+  min-height: 100%;
+  width: 100%; }
+  .tourss .uaebackground {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-09.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+    min-height: 413px;
+    width: 78%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .tourss .uaebackground h1 {
+      font-size: 60px;
+      font-weight: lighter;
+      color: white;
+      margin-right: 10%;
+      margin-bottom: 24%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      font-family: "Roboto", sans-serif; }
+    .tourss .uaebackground p {
+      font-size: 25px;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 30%;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+.special {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto; }
+  .special .mainh1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    margin-right: 46%;
+    margin-top: 15%; }
+  .special h1:after {
+    border-bottom: 2px solid black;
+    content: "";
+    display: block;
+    width: 200px; }
+  .special .offerone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-right: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    .special .offerone img {
+      height: 100%;
+      width: 199px;
+      margin-left: 8%; }
+    .special .offerone h1 {
+      font-size: 30px;
+      font-family: "Roboto", sans-serif;
+      font-weight: lighter;
+      margin-bottom: 20%;
+      margin-left: 2%;
+      width: 20%; }
+    .special .offerone .percentage {
+      font-size: 20px;
+      color: #ff7d38; }
+    .special .offerone p {
+      font-size: 16px;
+      font-weight: bolder;
+      width: 290px; }
+    .special .offerone button {
+      background-color: #79addc;
+      border-style: none;
+      border-radius: 15px;
+      padding: 10px;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-weight: bold;
+      height: 40px; }
+  .special .offertwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 10%; }
+    .special .offertwo img {
+      height: 100%;
+      width: 199px;
+      margin-left: 9%; }
+    .special .offertwo h1 {
+      font-size: 30px;
+      font-family: "Roboto", sans-serif;
+      font-weight: lighter;
+      bottom: 30%; }
+    .special .offertwo .percentage {
+      font-size: 20px;
+      color: #ff7d38; }
+    .special .offertwo p {
+      font-size: 16px;
+      font-weight: bolder;
+      width: 290px;
+      right: 40%; }
+    .special .offertwo button {
+      background-color: #79addc;
+      border-style: none;
+      border-radius: 15px;
+      padding: 10px;
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-weight: bold; }
+
+.blog {
+  height: 100%;
+  width: 100%; }
+  .blog .title {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 18%;
+    margin-top: 2%; }
+  .blog .title:after {
+    border-bottom: 2px solid black;
+    content: "";
+    display: block;
+    width: 60px; }
+  .blog .blogone {
+    width: 100%;
+    height: 100; }
+    .blog .blogone h2 {
+      font-size: 22px;
+      background-color: #79addc;
+      width: 45px;
+      color: white;
+      margin-left: 18%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: "Roboto", sans-serif; }
+    .blog .blogone img {
+      background-color: yellow;
+      height: 300px;
+      width: 60%;
+      margin-left: 22%;
+      margin-top: -5%; }
+    .blog .blogone h1 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 22%;
+      font-family: "Lato", sans-serif; }
+    .blog .blogone p {
+      font-size: 13px;
+      font-weight: bolder;
+      font-family: "Lato", sans-serif;
+      color: #79addc;
+      margin-left: 22%;
+      width: 380px; }
+  .blog .blogtwo {
+    width: 100%;
+    height: 100;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+    .blog .blogtwo h2 {
+      font-size: 22px;
+      background-color: #79addc;
+      width: 45px;
+      color: white;
+      margin-left: 18%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: "Roboto", sans-serif; }
+    .blog .blogtwo img {
+      background-color: yellow;
+      height: 300px;
+      width: 60%;
+      margin-left: 22%;
+      margin-top: -5%; }
+    .blog .blogtwo h1 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 22%;
+      font-family: "Lato", sans-serif; }
+    .blog .blogtwo p {
+      font-size: 13px;
+      font-weight: bolder;
+      font-family: "Lato", sans-serif;
+      color: #79addc;
+      margin-left: 22%;
+      width: 380px; }
+  @media (max-width: 850px) {
+    .blog .nav {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 20px 0; }
+    .blog .links {
+      min-width: auto;
+      margin-right: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
